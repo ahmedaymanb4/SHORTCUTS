@@ -11,9 +11,6 @@ Each section in this quick reference lists a particular category of characters, 
 
 # For Example (this table is from Microsoft website: [Use regular expressions in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/using-regular-expressions-in-visual-studio)),
 
-<details>
-<summary> MS VS Code Regular Expressions Table</summary>
-
 Purpose|Expression|Example
 | ------------- | ------------- | ------------- |
 Match any single character (except a line break). For more information, see Any character.|.|a.o matches "aro" in "around" and "abo" in "about" but not "acro" in "across"
@@ -41,5 +38,3 @@ Match a line break (that is, a carriage return followed by a new line)|\r?\n|End
 Match any word character|\w|a\wd matches "add" and "a1d" but not "a d"
 Match any whitespace character|\s|Public\sInterface matches the phrase "Public Interface"
 Match any decimal digit character|\d|\d matches "4" and "0" in "wd40"
-
-</details>
